@@ -18,9 +18,9 @@ app.controller('MyCtrl',($scope,$http)=>{
        console.log(error)
   });
 
-//   $scope.changeValue=()=>{
-//       $scope.title="This is home time";
-//   }
+  $scope.changeValue=()=>{
+       $scope.title="This is home time";
+   }
 
 //get country data
 
